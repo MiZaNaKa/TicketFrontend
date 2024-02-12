@@ -1,0 +1,206 @@
+.width50{
+    width: 30%;
+    margin: 0 auto;
+    margin-top: 150px;
+    border: 1px solid #000;
+    border-radius: 50px;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+.DetailBOx{
+    width: 30%;
+    margin: 0 auto;
+    margin-top: 100px;
+    border: 1px solid #000;
+    border-radius: 50px;
+    padding: 20px 30px;
+    margin-bottom: 30px;
+}
+
+.buttonBox{
+    width: 30%;
+    margin: 0 auto;
+}
+
+input{
+    padding: 8px;
+    display: block;    
+    width: 80%;
+    margin: 0 auto;
+    margin-bottom: 15px;
+}
+
+textarea{
+    width: 83%;
+    margin: 0 auto;
+    margin-bottom: 15px;
+    display: block;  
+    padding: 5;
+}
+
+.loginInfoBox{
+    margin-bottom: 20px;
+}
+
+.row{
+    flex-direction: row;
+}
+
+.col1{
+    width: 70%;
+    flex-direction: column;
+    float: left;
+}
+
+.col2{
+    width: 10%;
+    flex-direction: column;
+    float: left;
+    position: relative;
+}
+
+.col3{
+    width: 10%;
+    flex-direction: column;
+    float: right;
+}
+
+.headerBox{
+    padding-top: 25px;
+}
+
+.toggleIcon{
+    width:30px;
+    height:30px
+}
+
+.toggleIcon:hover{
+    cursor: pointer;
+}
+
+.drawer{
+    padding-top: 20px;
+}
+
+.closeDrawerIcon{
+    width: 30px;
+    height: 30px;
+    display: block;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.closeDrawerIcon:hover{
+    cursor: pointer;
+}
+
+.logo{
+    width: 150px;
+    height: 50px;
+    float: left;
+    margin-left: 40px;
+}
+
+.count{
+    position: absolute;
+    width: 15px;
+    height: 5px;
+    top: -30px;
+    background: red;
+    display: inline-table;
+    right: 25%;
+    padding: 3px;
+}
+
+.ticketList:hover{
+    cursor: pointer;
+}
+
+.cursor:hover{
+    cursor: pointer;
+}
+
+select{
+    display: block;
+    float: right;
+    margin-bottom: 30px;
+}
+
+.column1{
+    width: 5%;
+    float: left;
+}
+
+.column2{
+    width: 20%;
+    float: left;
+}
+
+.column3{
+    width: 10%;
+    float: left;
+}
+
+.ticketTable{
+    padding: 8px;
+    border: 1px solid #000;
+    display: inline-block;
+    width: 100%;
+}
+
+
+.clearfix {
+    overflow: auto;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.error{
+    color: red;
+}
+
+.col30L{
+    width: 30%;
+    float: left;
+    text-align: left;
+}
+
+.col70R{
+    width: 70%;
+    float: right;
+    text-align: left;
+}
+
+button{
+    width: 90%;
+    padding: 10px;
+    background: #000;
+    color: #fff;
+    border: 0
+}
+
+.buttonBoxLeft{
+    width: 45%;
+    float: left;
+}
+
+.buttonBoxRight{
+    width: 50%;
+    float: right;
+}
+
+.detailTicketArea{
+    padding: 0;
+    margin: 0;
+    border: 0;
+    font-family: system-ui;
+    font-size: 16px;
+    line-height: 24px;
+    overflow-y: hidden;
+}   
+
+
