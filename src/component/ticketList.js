@@ -14,7 +14,7 @@ const TicketList = () => {
         {value: '1', text: 'waitingSupervisorApprove'},
         {value: '2', text: 'waitingLeaderApprove'},
         {value: '3', text: 'reject'},
-        {value: '4', text: 'Approve'},
+        {value: '4', text: 'processing'},
     ];
 
     var store1=localStorage.getItem('UserInfo')
@@ -151,7 +151,7 @@ const TicketList = () => {
                                             {x.status===1 ? "Waiting Supervisor Approve" : null}
                                             {x.status===2 ? "Waiting Leader Approve" : null}
                                             {x.status===3 ? "Reject" : null}
-                                            {x.status===4 ? "Approve" : null}
+                                            {x.status===4 ? "Processing" : null}
                                         </p>
                                     </div>
 
